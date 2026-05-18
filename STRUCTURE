@@ -1,0 +1,33 @@
+CODEALPHA_SNIFER/
+│
+├── pom.xml
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── codealpha/
+│       │
+│       │           ├── Application.java
+│       │           │
+│       │           ├── config/
+│       │           │   └── SecurityConfig.java
+│       │           │
+│       │           ├── controller/
+│       │           │   ├── AuthController.java
+│       │           │   ├── UserController.java
+│       │           │   └── FileUploadController.java
+│       │           │
+│       │           ├── model/
+│       │           │   └── User.java
+│       │           │
+│       │           ├── repository/
+│       │           │   └── UserRepository.java
+│       │           │
+│       │           └── security/
+│       │               └── VulnerableExamples.java
+│       │
+│       └── resources/
+│           └── application.properties
+│
+└── README.md
